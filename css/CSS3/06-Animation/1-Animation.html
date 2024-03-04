@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Example of CSS3 Translate Animation</title>
+<style>
+    .box {
+		margin: 50px;
+        width:153px;
+        height:103px;
+        background: url("./pic2.png") no-repeat;
+        background-size: 150px; /** to scale the image**/
+        position: relative;
+        /* Chrome, Safari, Opera */
+        -webkit-animation-name: moveit;
+        -webkit-animation-duration: 2s;
+        /* Standard syntax */
+        animation-name: moveit;
+        animation-duration: 5s;
+        animation-play-state: running; /*	paused | running */
+         animation-direction: normal;  /*/* normal | reverse | alternate | alternate-reverse |*/
+       
+    }   
+     
+    /* Chrome, Safari, Opera */
+    @-webkit-keyframes moveit {
+        from {left: 0;}
+        to {left: 50%;}
+    }
+     
+    /* Standard syntax */
+    @keyframes moveit {
+        from {left: 0;}
+        to {left: 80%;}
+    }
+</style>
+</head>
+<body>
+    <p><strong>Note:</strong> Animation </p>
+    <div class="box"></div>
+</body>
+</html>
