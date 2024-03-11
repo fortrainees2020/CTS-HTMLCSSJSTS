@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../../../../HTML5/HTMLCSSJS"
+		},
+		{
+			"path": "../../../../../JavaScript2021"
+		},
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../TypeScript"
+		},
+		{
+			"path": "../../../../../JavaScript2024"
+		},
+		{
+			"path": "../../../../../React"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "TypeScript"
+	}
+}
