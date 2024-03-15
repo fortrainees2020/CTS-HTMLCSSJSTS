@@ -1,0 +1,29 @@
+.navbar {
+    background-color: #151598; /* Background color of the navbar */
+    overflow: hidden; /* Ensure that any overflow is hidden */
+  }
+  
+  .navbar ul {
+    list-style-type: none; /* Remove default list styles */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display list items horizontally */
+  }
+  
+  .navbar li {
+    padding: 10px 15px; /* Padding around list items */
+  }
+  
+  .navbar a {
+    color: white; /* Text color of the links */
+    text-decoration: none; /* Remove default underline */
+    font-size: 18px; /* Font size of the links */
+  }
+  
+  .navbar a:hover {
+    background-color: #555; /* Background color on hover */
+  }
+  
+  .navbar .active {
+    background-color: #4CAF50; /* Background color of the active link */
+  }
